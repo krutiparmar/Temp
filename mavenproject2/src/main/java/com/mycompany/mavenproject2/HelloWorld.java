@@ -1,3 +1,5 @@
+package com.mycompany.mavenproject2;
+
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -8,7 +10,7 @@ public class HelloWorld extends HttpServlet {
 
   public void init() throws ServletException
   {
-      message = "Hello World";
+      message = "Hello Kruti";
   }
 
   public void doGet(HttpServletRequest request,
