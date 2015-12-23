@@ -8,7 +8,7 @@
 	</path>
 	
 	<target name="init">
-		<mkdir dir="build/classes"/>
+		<mkdir dir="WEB-INF/build/classes"/>
 		<mkdir dir="dist" />
 	</target>
 	
