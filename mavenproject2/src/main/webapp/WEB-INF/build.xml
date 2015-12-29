@@ -1,6 +1,6 @@
 <?xml version="1.0" ?> 
 <project name="mavenproject2" default="war">
-
+	<import file="pom.xml"/>
 	<path id="compile.classpath">
 		<fileset dir="WEB-INF/lib">
 			<include name="*.jar"/>
