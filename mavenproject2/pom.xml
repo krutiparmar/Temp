@@ -68,6 +68,20 @@
                             </artifactItems>
                         </configuration>
                     </execution>
+                    <execution>
+                        <id>package-lib-winstone</id>
+                        <phase>package</phase>
+                        <configuration>
+                            <target>
+                                <war destfile="target/${project.artifactId}.war" update="true">
+                                    <fileset dir="target/${project.artifactId}" includes="WEB-INF/lib-winstone/*.jar"/>
+                                </war>
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
                 </executions>
             </plugin>
         </plugins>
