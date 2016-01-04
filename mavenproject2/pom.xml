@@ -74,7 +74,7 @@
                         <configuration>
                             <target>
                                 <war destfile="target/${project.artifactId}.war" update="true">
-                                    <fileset dir="target/${project.artifactId}" includes="WEB-INF/lib-winstone/*.jar"/>
+                                    <fileset dir="target/${project.artifactId}" includes="WEB-INF/lib/*.jar"/>
                                 </war>
                             </target>
                         </configuration>
