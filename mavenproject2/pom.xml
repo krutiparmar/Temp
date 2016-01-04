@@ -24,6 +24,7 @@
     </dependencies>
 
     <build>
+        
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -51,6 +52,7 @@
                 <version>2.3</version>
                 <executions>
                     <execution>
+                        <id>create-war</id>
                         <phase>package</phase>
                         <goals>
                             <goal>inplace</goal>
