@@ -24,6 +24,14 @@
             <layout>default</layout>     
         </repository>
     </distributionManagement>-->
+    
+    <distributionManagement>
+        <repository>
+            <id>mytomcat</id>
+            <name>Temp</name>
+            <url>https://github.com/krutiparmar/Temp.git</url>
+        </repository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
