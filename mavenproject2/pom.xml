@@ -20,7 +20,7 @@
             <uniqueVersion>false</uniqueVersion>
             <id>mavenproject2</id>
             <name>GitHub Repository</name>
-            <url>https://github.com/krutiparmar/Temp/</url>
+            <url>https://github.com/krutiparmar/Temp/mavenproject2</url>
             <layout>default</layout>     
         </repository>
     </distributionManagement>
