@@ -14,8 +14,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <tomcat.dir>D:/Apache Tomcat 8.0.15</tomcat.dir>
     </properties>
-    
-
+       
+    <distributionManagement>
+        <repository>           
+            <url>https://github.com/krutiparmar/Temp/</url>           
+        </repository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
