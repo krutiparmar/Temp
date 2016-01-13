@@ -99,7 +99,7 @@
                     <path>/mavenproject2</path>
                 </configuration>
             </plugin>
-            <plugin>
+<!--            <plugin>
                 <artifactId>maven-antrun-plugin</artifactId>
                 <version>1.3</version>
                 <executions>
@@ -129,7 +129,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 
